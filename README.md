@@ -1,22 +1,34 @@
-# BlackSwan iOS Fever app
+# BlackSwan iOS Job Application Test
 
-Show us what you can do and how clean your code is! Write an app that uses public APIs to fetch data and display it in an organized way.
+**Please complete the test in Swift.**
 
-Even if we all love playing with Swift (who doesn't ;)), please stick with the plain old Objective-C here.
+We want to see how clean your code is!
 
-For example:
+Please write an application that uses public API's to fetch data and display it in an organised way. 
 
-* A StackOverflow client that shows the hottest questions
-* An app that shows random images of cats from [The Cat API](http://thecatapi.com/)
-* An app that downloads the NSHipster RSS feed showing and index of all the articles and that alerts the user when the latest article is published
-* _Anything you can come up with!_
+Don't over engineer it, we don't want to take up all your day. 
 
-We could be sneaky and not say anything else, but here's some things we're looking to see:
+**Example API's:**
+
+| Site   |      URL      | API Key |
+|:----------|:-------------|:-----:|
+| Giphy |  https://github.com/Giphy/GiphyAPI | - |
+| UK Police |    https://data.police.uk/docs/   |  - |
+| StackExchange | https://api.stackexchange.com/docs | - | 
+| JSON Placeholder | http://jsonplaceholder.typicode.com | - |
+| Open Weather | http://openweathermap.org/api | - | 
+| TFL | https://api.tfl.gov.uk/ | - | 
+| Transport for Budapest | http://docs.bkkfutar.apiary.io/ | - |
+| The Movie DB | http://docs.themoviedb.apiary.io/ | 0a08e38b874d0aa2d426ffc04357069d | 
+
+...or surprise us. 
+
+We could be sneaky and not say anything else, but here's some things we're looking to for:
 
 * Use of existing open source libraries
-* Standard best practises for Networking - Not reiventing the wheel
-* Tests!
-* **In this test** we don't care too much about the UI, what we care is how good the code is!
+* Unit Tests and/or UI Tests 
+* Clean code and project structure
+* Brownie points for dependancy injection
 
 ### Submission notes
 
@@ -24,4 +36,4 @@ You can just submit a PR here, create a private repo for free on [GitLab](https:
 
 ---
 
-[@BlackSwan](https://www.bkakswan.com) - 2014
+[@BlackSwan](https://www.bkakswan.com) - 2016
