@@ -50,7 +50,10 @@ extension DataLoader {
     }
     
     func loadDetailForPost(with id: Int) {
-        detailedPost = posts?.filter(){ $0.id == id }.first
+        serverApi.get("/posts/\(id)") { [weak self] (err, data: Post?) in
+            guard err == nil else { return }
+            self?.detailedPost = data
+        }
     }
     
     func dropDetail() {
