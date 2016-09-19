@@ -12,6 +12,15 @@
 		21B225981D8FF307009B20D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B225961D8FF307009B20D7 /* Main.storyboard */; };
 		21B2259A1D8FF307009B20D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B225991D8FF307009B20D7 /* Assets.xcassets */; };
 		21B2259D1D8FF308009B20D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B2259B1D8FF308009B20D7 /* LaunchScreen.storyboard */; };
+		21B3FBA61D902AB6002DB22A /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 21B3FBA51D902AB6002DB22A /* Cartfile */; };
+		21B3FBA81D902BAD002DB22A /* EventEmitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B3FBA71D902BAD002DB22A /* EventEmitter.framework */; };
+		21B3FBAA1D902BB5002DB22A /* RESTAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B3FBA91D902BB5002DB22A /* RESTAPI.framework */; };
+		21B3FBAC1D902BBE002DB22A /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B3FBAB1D902BBE002DB22A /* SwiftyJSON.framework */; };
+		21B3FBB01D902C4B002DB22A /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B3FBAF1D902C4B002DB22A /* DataLoader.swift */; };
+		21B3FBB21D902C5A002DB22A /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B3FBB11D902C5A002DB22A /* AppDependencies.swift */; };
+		21B3FBB51D902CE5002DB22A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B3FBB41D902CE5002DB22A /* Models.swift */; };
+		21B3FBB71D903761002DB22A /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B3FBB61D903761002DB22A /* PostTableViewCell.swift */; };
+		21B3FBB91D903BA3002DB22A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B3FBB81D903BA3002DB22A /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		21B225991D8FF307009B20D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21B2259C1D8FF308009B20D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21B2259E1D8FF308009B20D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21B3FBA51D902AB6002DB22A /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		21B3FBA71D902BAD002DB22A /* EventEmitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventEmitter.framework; path = Carthage/Build/iOS/EventEmitter.framework; sourceTree = "<group>"; };
+		21B3FBA91D902BB5002DB22A /* RESTAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RESTAPI.framework; path = Carthage/Build/iOS/RESTAPI.framework; sourceTree = "<group>"; };
+		21B3FBAB1D902BBE002DB22A /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		21B3FBAF1D902C4B002DB22A /* DataLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		21B3FBB11D902C5A002DB22A /* AppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		21B3FBB41D902CE5002DB22A /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		21B3FBB61D903761002DB22A /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		21B3FBB81D903BA3002DB22A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21B3FBA81D902BAD002DB22A /* EventEmitter.framework in Frameworks */,
+				21B3FBAA1D902BB5002DB22A /* RESTAPI.framework in Frameworks */,
+				21B3FBAC1D902BBE002DB22A /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +59,10 @@
 		21B225861D8FF307009B20D7 = {
 			isa = PBXGroup;
 			children = (
+				21B3FBA51D902AB6002DB22A /* Cartfile */,
+				21B3FBA71D902BAD002DB22A /* EventEmitter.framework */,
+				21B3FBA91D902BB5002DB22A /* RESTAPI.framework */,
+				21B3FBAB1D902BBE002DB22A /* SwiftyJSON.framework */,
 				21B225911D8FF307009B20D7 /* JSONPlaceholderTest */,
 				21B225901D8FF307009B20D7 /* Products */,
 			);
@@ -54,14 +79,35 @@
 		21B225911D8FF307009B20D7 /* JSONPlaceholderTest */ = {
 			isa = PBXGroup;
 			children = (
+				21B3FBB31D902C60002DB22A /* View */,
+				21B3FBAE1D902C28002DB22A /* Network */,
 				21B225921D8FF307009B20D7 /* AppDelegate.swift */,
-				21B225941D8FF307009B20D7 /* ViewController.swift */,
-				21B225961D8FF307009B20D7 /* Main.storyboard */,
+				21B3FBB11D902C5A002DB22A /* AppDependencies.swift */,
 				21B225991D8FF307009B20D7 /* Assets.xcassets */,
 				21B2259B1D8FF308009B20D7 /* LaunchScreen.storyboard */,
 				21B2259E1D8FF308009B20D7 /* Info.plist */,
 			);
 			path = JSONPlaceholderTest;
+			sourceTree = "<group>";
+		};
+		21B3FBAE1D902C28002DB22A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				21B3FBAF1D902C4B002DB22A /* DataLoader.swift */,
+				21B3FBB41D902CE5002DB22A /* Models.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		21B3FBB31D902C60002DB22A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21B225961D8FF307009B20D7 /* Main.storyboard */,
+				21B225941D8FF307009B20D7 /* ViewController.swift */,
+				21B3FBB81D903BA3002DB22A /* DetailViewController.swift */,
+				21B3FBB61D903761002DB22A /* PostTableViewCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +120,7 @@
 				21B2258B1D8FF307009B20D7 /* Sources */,
 				21B2258C1D8FF307009B20D7 /* Frameworks */,
 				21B2258D1D8FF307009B20D7 /* Resources */,
+				21B3FBAD1D902BF6002DB22A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -125,19 +172,44 @@
 			files = (
 				21B2259D1D8FF308009B20D7 /* LaunchScreen.storyboard in Resources */,
 				21B2259A1D8FF307009B20D7 /* Assets.xcassets in Resources */,
+				21B3FBA61D902AB6002DB22A /* Cartfile in Resources */,
 				21B225981D8FF307009B20D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21B3FBAD1D902BF6002DB22A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RESTAPI.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/EventEmitter.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		21B2258B1D8FF307009B20D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21B3FBB21D902C5A002DB22A /* AppDependencies.swift in Sources */,
 				21B225951D8FF307009B20D7 /* ViewController.swift in Sources */,
 				21B225931D8FF307009B20D7 /* AppDelegate.swift in Sources */,
+				21B3FBB01D902C4B002DB22A /* DataLoader.swift in Sources */,
+				21B3FBB51D902CE5002DB22A /* Models.swift in Sources */,
+				21B3FBB71D903761002DB22A /* PostTableViewCell.swift in Sources */,
+				21B3FBB91D903BA3002DB22A /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +332,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = JSONPlaceholderTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gujci.JSONPlaceholderTest;
@@ -272,6 +348,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = JSONPlaceholderTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gujci.JSONPlaceholderTest;
@@ -299,6 +379,7 @@
 				21B225A31D8FF308009B20D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
