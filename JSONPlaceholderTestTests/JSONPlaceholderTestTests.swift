@@ -24,10 +24,7 @@ class JSONPlaceholderTestTests: XCTestCase {
         let expectation = self.expectation(description: "loadin posts")
         
         loader.on(LoaderEvent.postsLoaded) { [weak self] in
-            guard let _ = self?.loader.posts else {
-                XCTAssert(false, "error during loading posts")
-                return
-            }
+            XCTAssertNotNil(self?.loader.posts, "error during loading posts")
             expectation.fulfill()
         }
         
