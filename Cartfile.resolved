@@ -1,3 +1,4 @@
-github "Gujci/EventEmitter" "0.2.2"
-github "SwiftyJSON/SwiftyJSON" "3.1.0"
-github "Gujci/RESTAPI" "0.3.3"
+github "Gujci/EventEmitter" "0.3.1"
+github "SwiftyJSON/SwiftyJSON" "v3.1.1"
+github "Gujci/AppDependencies" "0.0.1"
+github "Gujci/RESTAPI" "0.3.4"

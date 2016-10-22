@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import AppDependencies
 
 class DetailViewController: UIViewController {
-    fileprivate lazy var loader: DataLoader = App.sharedInstance.request()
+    fileprivate lazy var loader: DataLoader = App.shared.request()
     
     @IBOutlet weak var bodyTextView: UITextView!
     

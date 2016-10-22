@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AppDependencies
 
 //MARK: - TableView state
 enum PostListViewState {
@@ -46,7 +47,7 @@ extension PostListViewState {
 //MARK: - ViewController
 class ViewController: UIViewController {
     
-    fileprivate lazy var loader: DataLoader = App.sharedInstance.request()
+    fileprivate lazy var loader: DataLoader = App.shared.request()
     fileprivate var state: PostListViewState = .Loading {
         didSet {
             //TODO: - handle states normaly

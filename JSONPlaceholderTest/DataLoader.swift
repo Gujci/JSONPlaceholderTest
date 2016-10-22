@@ -9,6 +9,7 @@
 import Foundation
 import RESTAPI
 import EventEmitter
+import AppDependencies
 
 //MARK: - Events
 enum LoaderEvent: String, Event {

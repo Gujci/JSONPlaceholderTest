@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import AppDependencies
+
+typealias App = Dependencies
 
 @UIApplicationMain
 class AppDelegate: UIResponder {
